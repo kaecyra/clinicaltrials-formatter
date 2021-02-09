@@ -1,0 +1,23 @@
+{
+    "name": "kaecyra/clinicaltrials-formatter",
+    "description": "Format data from clinicaltrials.gov",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Tim Gunter",
+            "email": "gunter.tim@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-libxml": "*",
+        "ext-simplexml": "*",
+        "phpoffice/phpspreadsheet": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kaecyra\\ClinicalTrials\\": "src"
+        }
+    }
+}
